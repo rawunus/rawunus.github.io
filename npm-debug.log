@@ -1,0 +1,243 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'live-server',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'live-server', null ]
+5 verbose cache add name=undefined spec="live-server" args=["live-server",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'live-server',
+6 verbose parsed url   path: 'live-server',
+6 verbose parsed url   href: 'live-server' }
+7 silly lockFile 9528180e-live-server live-server
+8 verbose lock live-server /home/jaljale/.npm/9528180e-live-server.lock
+9 silly lockFile 9528180e-live-server live-server
+10 silly lockFile 9528180e-live-server live-server
+11 verbose addNamed [ 'live-server', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 180ee697-live-server live-server@
+14 verbose lock live-server@ /home/jaljale/.npm/180ee697-live-server.lock
+15 silly addNameRange { name: 'live-server', range: '*', hasData: false }
+16 verbose url raw live-server
+17 verbose url resolving [ 'https://registry.npmjs.org/', './live-server' ]
+18 verbose url resolved https://registry.npmjs.org/live-server
+19 info trying registry request attempt 1 at 17:18:36
+20 http GET https://registry.npmjs.org/live-server
+21 http 200 https://registry.npmjs.org/live-server
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"9GXHF7VK4UONKRUYBVSJY4LP7"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '28223',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Mon, 11 Jan 2016 11:33:36 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '149',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1452512016.721943,VS0,VE0',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'live-server', range: '*', hasData: true }
+24 silly addNameRange versions [ 'live-server',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0' ] ]
+25 verbose addNamed [ 'live-server', '0.9.0' ]
+26 verbose addNamed [ '0.9.0', '0.9.0' ]
+27 silly lockFile d1ebc522-live-server-0-9-0 live-server@0.9.0
+28 verbose lock live-server@0.9.0 /home/jaljale/.npm/d1ebc522-live-server-0-9-0.lock
+29 silly lockFile 47769b77-ive-server-live-server-0-9-0-tgz https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz
+30 verbose lock https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz /home/jaljale/.npm/47769b77-ive-server-live-server-0-9-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz',
+31 verbose addRemoteTarball   'a85d972cf69d3244355b9d5aefe8ff2af0127d7f' ]
+32 info retry fetch attempt 1 at 17:18:37
+33 verbose fetch to= /home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/tmp.tgz
+34 http GET https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz
+35 http 200 https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz
+36 verbose tar unpack /home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/tmp.tgz
+37 silly lockFile ea1cab61-17169-0-8032859170343727-package tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package
+38 verbose lock tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package /home/jaljale/.npm/ea1cab61-17169-0-8032859170343727-package.lock
+39 silly lockFile d6e4652e-17169-0-8032859170343727-tmp-tgz tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/tmp.tgz
+40 verbose lock tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/tmp.tgz /home/jaljale/.npm/d6e4652e-17169-0-8032859170343727-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+48 silly gunzTarPerm extractEntry index.js
+49 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+50 silly gunzTarPerm extractEntry live-server.js
+51 silly gunzTarPerm modified mode [ 'live-server.js', 509, 493 ]
+52 silly gunzTarPerm extractEntry .editorconfig
+53 silly gunzTarPerm modified mode [ '.editorconfig', 436, 420 ]
+54 silly gunzTarPerm extractEntry CONTRIBUTING.md
+55 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+56 silly gunzTarPerm extractEntry injected.html
+57 silly gunzTarPerm modified mode [ 'injected.html', 436, 420 ]
+58 silly gunzTarPerm extractEntry test/acceptance.js
+59 silly gunzTarPerm modified mode [ 'test/acceptance.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry test/cli.js
+61 silly gunzTarPerm modified mode [ 'test/cli.js', 436, 420 ]
+62 silly gunzTarPerm extractEntry test/mount.js
+63 silly gunzTarPerm modified mode [ 'test/mount.js', 436, 420 ]
+64 silly gunzTarPerm extractEntry test/test.js
+65 silly gunzTarPerm modified mode [ 'test/test.js', 436, 420 ]
+66 silly gunzTarPerm extractEntry test/data/index.html
+67 silly gunzTarPerm modified mode [ 'test/data/index.html', 436, 420 ]
+68 silly gunzTarPerm extractEntry test/data/style.css
+69 silly gunzTarPerm modified mode [ 'test/data/style.css', 436, 420 ]
+70 silly gunzTarPerm extractEntry test/data/sub/sub.html
+71 silly gunzTarPerm modified mode [ 'test/data/sub/sub.html', 436, 420 ]
+72 silly gunzTarPerm extractEntry test/data/test.svg
+73 silly gunzTarPerm modified mode [ 'test/data/test.svg', 436, 420 ]
+74 silly lockFile ea1cab61-17169-0-8032859170343727-package tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package
+75 silly lockFile ea1cab61-17169-0-8032859170343727-package tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package
+76 silly lockFile d6e4652e-17169-0-8032859170343727-tmp-tgz tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/tmp.tgz
+77 silly lockFile d6e4652e-17169-0-8032859170343727-tmp-tgz tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/tmp.tgz
+78 verbose tar pack [ '/home/jaljale/.npm/live-server/0.9.0/package.tgz',
+78 verbose tar pack   '/home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package' ]
+79 verbose tarball /home/jaljale/.npm/live-server/0.9.0/package.tgz
+80 verbose folder /home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package
+81 silly lockFile ea1cab61-17169-0-8032859170343727-package tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package
+82 verbose lock tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package /home/jaljale/.npm/ea1cab61-17169-0-8032859170343727-package.lock
+83 silly lockFile 0eb4f8b2-pm-live-server-0-9-0-package-tgz tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz
+84 verbose lock tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz /home/jaljale/.npm/0eb4f8b2-pm-live-server-0-9-0-package-tgz.lock
+85 silly lockFile ea1cab61-17169-0-8032859170343727-package tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package
+86 silly lockFile ea1cab61-17169-0-8032859170343727-package tar:///home/jaljale/tmp/npm-12190-N7MFZpYK/1452512017169-0.8032859170343727/package
+87 silly lockFile 0eb4f8b2-pm-live-server-0-9-0-package-tgz tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz
+88 silly lockFile 0eb4f8b2-pm-live-server-0-9-0-package-tgz tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz
+89 silly lockFile 7e5bb378-le-npm-live-server-0-9-0-package /home/jaljale/.npm/live-server/0.9.0/package
+90 verbose lock /home/jaljale/.npm/live-server/0.9.0/package /home/jaljale/.npm/7e5bb378-le-npm-live-server-0-9-0-package.lock
+91 silly lockFile 7e5bb378-le-npm-live-server-0-9-0-package /home/jaljale/.npm/live-server/0.9.0/package
+92 silly lockFile 7e5bb378-le-npm-live-server-0-9-0-package /home/jaljale/.npm/live-server/0.9.0/package
+93 verbose tar unpack /home/jaljale/.npm/live-server/0.9.0/package.tgz
+94 silly lockFile 52bcdb3b-le-npm-live-server-0-9-0-package tar:///home/jaljale/.npm/live-server/0.9.0/package
+95 verbose lock tar:///home/jaljale/.npm/live-server/0.9.0/package /home/jaljale/.npm/52bcdb3b-le-npm-live-server-0-9-0-package.lock
+96 silly lockFile 0eb4f8b2-pm-live-server-0-9-0-package-tgz tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz
+97 verbose lock tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz /home/jaljale/.npm/0eb4f8b2-pm-live-server-0-9-0-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 silly gunzTarPerm extractEntry package.json
+100 silly gunzTarPerm extractEntry .npmignore
+101 silly gunzTarPerm extractEntry README.md
+102 silly gunzTarPerm extractEntry index.js
+103 silly gunzTarPerm extractEntry live-server.js
+104 silly gunzTarPerm extractEntry .editorconfig
+105 silly gunzTarPerm extractEntry CONTRIBUTING.md
+106 silly gunzTarPerm extractEntry injected.html
+107 silly gunzTarPerm extractEntry test/acceptance.js
+108 silly gunzTarPerm extractEntry test/cli.js
+109 silly gunzTarPerm extractEntry test/mount.js
+110 silly gunzTarPerm extractEntry test/test.js
+111 silly gunzTarPerm extractEntry test/data/index.html
+112 silly gunzTarPerm extractEntry test/data/style.css
+113 silly gunzTarPerm extractEntry test/data/sub/sub.html
+114 silly gunzTarPerm extractEntry test/data/test.svg
+115 silly lockFile 52bcdb3b-le-npm-live-server-0-9-0-package tar:///home/jaljale/.npm/live-server/0.9.0/package
+116 silly lockFile 52bcdb3b-le-npm-live-server-0-9-0-package tar:///home/jaljale/.npm/live-server/0.9.0/package
+117 silly lockFile 0eb4f8b2-pm-live-server-0-9-0-package-tgz tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz
+118 silly lockFile 0eb4f8b2-pm-live-server-0-9-0-package-tgz tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz
+119 verbose chmod /home/jaljale/.npm/live-server/0.9.0/package.tgz 644
+120 verbose chown /home/jaljale/.npm/live-server/0.9.0/package.tgz [ 1000, 1000 ]
+121 silly lockFile 47769b77-ive-server-live-server-0-9-0-tgz https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz
+122 silly lockFile 47769b77-ive-server-live-server-0-9-0-tgz https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz
+123 silly lockFile d1ebc522-live-server-0-9-0 live-server@0.9.0
+124 silly lockFile d1ebc522-live-server-0-9-0 live-server@0.9.0
+125 silly lockFile 180ee697-live-server live-server@
+126 silly lockFile 180ee697-live-server live-server@
+127 silly resolved [ { name: 'live-server',
+127 silly resolved     version: '0.9.0',
+127 silly resolved     description: 'simple development http server with live reload capability',
+127 silly resolved     keywords: [ 'front-end', 'development', 'tool', 'server', 'http', 'cli' ],
+127 silly resolved     author: { name: 'Tapio Vierros' },
+127 silly resolved     dependencies:
+127 silly resolved      { colors: 'latest',
+127 silly resolved        connect: '2.x.x',
+127 silly resolved        'event-stream': 'latest',
+127 silly resolved        'faye-websocket': '0.9.x',
+127 silly resolved        'object-assign': '^2.0.0',
+127 silly resolved        opn: 'latest',
+127 silly resolved        send: 'latest',
+127 silly resolved        watchr: '2.3.x' },
+127 silly resolved     devDependencies: { mocha: '^2.3.3', supertest: '1.0.1' },
+127 silly resolved     scripts: { test: 'mocha test', lint: 'jshint *.js; eslint *.js' },
+127 silly resolved     bin: { 'live-server': './live-server.js' },
+127 silly resolved     repository: { type: 'git', url: 'https://github.com/tapio/live-server.git' },
+127 silly resolved     engines: { node: '>=0.8.0' },
+127 silly resolved     preferGlobal: true,
+127 silly resolved     license: 'MIT',
+127 silly resolved     eslintConfig: { env: [Object], rules: [Object] },
+127 silly resolved     readme: '[![view on npm](http://img.shields.io/npm/v/live-server.svg)](https://www.npmjs.org/package/live-server)\n[![npm module downloads per month](http://img.shields.io/npm/dm/live-server.svg)](https://www.npmjs.org/package/live-server)\n\nLive Server\n===========\n\nThis is a little development server with live reload capability. Use it for hacking your HTML/JavaScript/CSS files, but not for deploying the final site.\n\nThere are two reasons for using this:\n\n1. AJAX requests don\'t work with the `file://` protocol due to security restrictions, i.e. you need a server if your site fetches content through JavaScript.\n2. Having the page reload automatically after changes to files can accelerate development.\n\nIf you don\'t want/need the live reload, you should probably use something simpler, like the following Python-based one-liner:\n\n\tpython -m SimpleHTTPServer\n\n\nInstallation\n------------\n\nYou need node.js and npm. You should probably install this globally.\n\n**Npm way**\n\n\tnpm install -g live-server\n\n**Manual way**\n\n\tgit clone https://github.com/tapio/live-server\n\tcd live-server\n\tnpm install # Local dependencies if you want to hack\n\tnpm install -g # Install globally\n\n\nUsage from command line\n-----------------------\n\nIssue the command `live-server` in your project\'s directory. Alternatively you can add the path to serve as a command line parameter.\n\nThis will automatically launch the default browser (you should have `index.html` present). When you make a change to any file, the browser will reload the page - unless it was a CSS file in which case the changes are applied without a reload.\n\nCommand line parameters:\n\n* `--port=NUMBER` - select port to use (can also be done with PORT environment variable)\n* `--host=ADDRESS` - select host address to bind to, default: 0.0.0.0 ("any address")\n* `--no-browser` - suppress automatic web browser launching\n* `--browser=BROWSER` - specify browser to use instead of system default\n* `--quiet` - suppress logging\n* `--open=PATH` - launch browser to PATH instead of server root\n* `--ignore=PATH` - comma-separated string of paths to ignore\n* `--entry-file=PATH` - serve this file in place of missing files (useful for single page apps)\n* `--mount=ROUTE:PATH` - serve the paths contents under the defined route (multiple definitions possible)\n* `--wait=MILLISECONDS` - wait for all changes, before reloading\n* `--help | -h` - display terse usage hint and exit\n* `--version | -v` - display version and exit\n\nDefault options:\n\nIf a file `~/.live-server.json` exists it will be loaded and used as default options for live-server on the command line. See "Usage from node" for option names.\n\n\nUsage from node\n---------------\n\n```javascript\nvar liveServer = require("live-server");\n\nvar params = {\n\tport: 8181, // Set the server port. Defaults to 8080.\n\thost: "0.0.0.0", // Set the address to bind to. Defaults to 0.0.0.0.\n\troot: "/public", // Set root directory that\'s being server. Defaults to cwd.\n\topen: false, // When false, it won\'t load your browser by default.\n\tignore: \'scss,my/templates\', // comma-separated string for paths to ignore\n\tfile: "index.html", // When set, serve this file for every 404 (useful for single-page applications)\n\twait: 1000 // Waits for all changes, before reloading. Defaults to 0 sec.\n\tmount: [[\'/components\', \'./node_modules\']] // Mount a directory to a route.\n};\nliveServer.start(params);\n```\n\n\nTroubleshooting\n---------------\n\nOpen your browser\'s console: there should be a message at the top stating that live reload is enabled. Note that you will need a browser that supports WebSockets. If there are errors, deal with them. If it\'s still not working, [file an issue](https://github.com/tapio/live-server/issues).\n\n\nHow it works\n------------\n\nThe server is a simple node app that serves the working directory and its subdirectories. It also watches the files for changes and when that happens, it sends a message through a web socket connection to the browser instructing it to reload. In order for the client side to support this, the server injects a small piece of JavaScript code to each requested html file. This script establishes the web socket connection and listens to the reload requests.\n\n\nContributing\n------------\n\nWe welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.\n\n\nVersion history\n---------------\n\n* v0.9.0\n\t- `--mount=ROUTE:PATH` cli option to specify alternative routes to paths (@pmentz)\n\t- `--browser=BROWSER` cli option to specify browser to use (@sakiv)\n\t- Improved error reporting\n\t- Basic support for injecting the reload code to SVG files (@dotnetCarpenter, @tapio)\n\t- LiveServer.shutdown() function to close down the server and file watchers\n\t- If host parameter is given, use it for browser URL instead of resolved IP\n\t- Initial testing framework (@harrytruong, @evanplaice, @tapio)\n* v0.8.2\n\t- Load initial settings from `~/.live-server.json` if exists (@mikker)\n\t- Allow `--port=0` to select random port (@viqueen)\n\t- Fix injecting when file extension is not lower case (@gusgard)\n\t- Fail gracefully if browser does not support WebSockets (@mattymaloney)\n\t- Switched to a more maintained browser opening library\n* v0.8.1\n\t- Add `--version / -v` command line flags to display version\n\t- Add `--host` cli option to mirror the API parameter\n\t- Once again use 127.0.0.1 instead of 0.0.0.0 as the browser URL\n* v0.8.0\n\t- Support multiple clients simultaneously (@dvv)\n\t- Pick a random available port if the default is in use (@oliverzy, @harrytruong)\n\t- Fix Chrome sometimes not applying CSS changes (@harrytruong)\n\t- `--ignore=PATH` cli option to not watch given server root relative paths (@richardgoater)\n\t- `--entry-file=PATH` cli option to specify file to use when request is not found (@izeau)\n\t- `--wait=MSECS` cli option to wait specified time before reloading (@leolower, @harrytruong)\n* v0.7.1\n\t- Fix hang caused by trying to inject into fragment html files without `</body>`\n\t- `logLevel` parameter in library to control amount of console spam\n\t- `--quiet` cli option to suppress console spam\n\t- `--open=PATH` cli option to launch browser in specified path instead of root (@richardgoater)\n\t- Library\'s `noBrowser: true` option is deprecated in favor of `open: false`\n* v0.7.0\n\t- API BREAKAGE: LiveServer library now takes parameters in an object\n\t- Add possibility to specify host to the lib\n\t- Only inject to host page when working with web components (e.g. Polymer) (@davej)\n\t- Open browser to 127.0.0.1, as 0.0.0.0 has issues\n\t- `--no-browser` command line flag to suppress browser launch\n\t- `--help` command line flag to display usage\n* v0.6.4\n\t- Allow specifying port from the command line: `live-server --port=3000` (@Pomax)\n\t- Don\'t inject script as the first thing so that DOCTYPE remains valid (@wmira)\n\t- Be more explicit with listening to all interfaces (@inadarei)\n* v0.6.3\n\t- Fix multiple _cacheOverride parameters polluting css requests\n\t- Don\'t create global variables in the injected script\n* v0.6.2\n\t- Fix a deprecation warning from `send`\n* v0.6.1\n\t- Republish to fix npm troubles\n* v0.6.0\n\t- Support for using as node library (@dpgraham)\n* v0.5.0\n\t- Watching was broken with new versions of `watchr` > 2.3.3\n\t- Added some logging to console\n* v0.4.0\n\t- Allow specifying directory to serve from command line\n* v0.3.0\n\t- Directory listings\n* v0.2.0\n\t- On-the-fly CSS refresh (no page reload)\n\t- Refactoring\n* v0.1.1\n\t- Documentation and meta tweaks\n* v0.1.0\n\t- Initial release\n\n\nLicense\n-------\n\nUses MIT licensed code from [Connect](https://github.com/senchalabs/connect/) and  [Roots](https://github.com/jenius/roots).\n\n(MIT License)\n\nCopyright (c) 2012 Tapio Vierros\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+127 silly resolved     readmeFilename: 'README.md',
+127 silly resolved     bugs: { url: 'https://github.com/tapio/live-server/issues' },
+127 silly resolved     _id: 'live-server@0.9.0',
+127 silly resolved     dist: { shasum: '71417b4aa4a99d038a5eb17db61a35f91a64d92f' },
+127 silly resolved     _from: 'live-server@',
+127 silly resolved     _resolved: 'https://registry.npmjs.org/live-server/-/live-server-0.9.0.tgz' } ]
+128 info install live-server@0.9.0 into /usr/local/lib
+129 info installOne live-server@0.9.0
+130 info /usr/local/lib/node_modules/live-server unbuild
+131 verbose tar unpack /home/jaljale/.npm/live-server/0.9.0/package.tgz
+132 silly lockFile a5a979dc-cal-lib-node-modules-live-server tar:///usr/local/lib/node_modules/live-server
+133 verbose lock tar:///usr/local/lib/node_modules/live-server /home/jaljale/.npm/a5a979dc-cal-lib-node-modules-live-server.lock
+134 silly lockFile 0eb4f8b2-pm-live-server-0-9-0-package-tgz tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz
+135 verbose lock tar:///home/jaljale/.npm/live-server/0.9.0/package.tgz /home/jaljale/.npm/0eb4f8b2-pm-live-server-0-9-0-package-tgz.lock
+136 silly gunzTarPerm modes [ '755', '644' ]
+137 error Error: EACCES, mkdir '/usr/local/lib/node_modules/live-server'
+137 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/live-server']
+137 error   errno: 3,
+137 error   code: 'EACCES',
+137 error   path: '/usr/local/lib/node_modules/live-server',
+137 error   fstream_type: 'Directory',
+137 error   fstream_path: '/usr/local/lib/node_modules/live-server',
+137 error   fstream_class: 'DirWriter',
+137 error   fstream_stack:
+137 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+137 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+137 error      'Object.oncomplete (fs.js:107:15)' ] }
+138 error Please try running this command again as root/Administrator.
+139 error System Linux 3.13.0-37-generic
+140 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "live-server" "-g"
+141 error cwd /var/www/rawunus.github.io
+142 error node -v v0.10.25
+143 error npm -v 1.3.10
+144 error path /usr/local/lib/node_modules/live-server
+145 error fstream_path /usr/local/lib/node_modules/live-server
+146 error fstream_type Directory
+147 error fstream_class DirWriter
+148 error code EACCES
+149 error errno 3
+150 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/live-server'
+151 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+151 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+151 error fstream_stack Object.oncomplete (fs.js:107:15)
+152 verbose exit [ 3, true ]
