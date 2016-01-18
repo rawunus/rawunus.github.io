@@ -2,27 +2,31 @@
 This is Something for me.
 */
 body{
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    -webkit-animation-name: background; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s infinite; /* Chrome, Safari, Opera */
-    animation-name: background;
-    animation-duration: 4s infinite;
+	margin: 0;
+    height:100%;
+    width:100%;
+    background: #111111;
+    animation: fading 4s infinite;
+   -webkit-animation: fading 4s infinite;
+   opacity: 0.5;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes background {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+@keyframes fading {
+    0%   { background: #111111; }
+    33%  { background: #eceeef; }
+    66%  { background: #f8fafb; }
+    100% { background: #111111; }
 }
 
-/* Standard syntax */
-@keyframes background {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+@-webkit-keyframes fading {
+    0%   { background: #111111; }
+    33%  { background: #eceeef; }
+    66%  { background: #f8fafb; }
+    100% { background: #111111; }
+}
+
+h1{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
 }
