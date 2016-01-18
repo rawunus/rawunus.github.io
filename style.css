@@ -6,8 +6,8 @@ body{
     height:100%;
     width:100%;
     background: #111111;
-    animation: fading 4s infinite;
-   -webkit-animation: fading 4s infinite;
+    animation: fading 8s infinite;
+   -webkit-animation: fading 8s infinite;
    opacity: 0.5;
 }
 
@@ -25,6 +25,14 @@ body{
     100% { background: #111111; }
 }
 
+.content{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.content img{
+	border-radius: 100%;
+}
 h1{
 	margin: auto;
 	text-align: center;
