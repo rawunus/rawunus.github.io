@@ -6,9 +6,9 @@ body{
     height: 100%;
     background-color: red;
     -webkit-animation-name: background; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s infinite; /* Chrome, Safari, Opera */
     animation-name: background;
-    animation-duration: 4s;
+    animation-duration: 4s infinite;
 }
 
 /* Chrome, Safari, Opera */
