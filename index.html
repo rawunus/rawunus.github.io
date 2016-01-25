@@ -25,53 +25,6 @@
 </body>
 </html>
 
-<script type="text/javascript">
-  
-
-var fillInPage = (function () {
-    var updateCityText = function (geoipResponse) {
- 
-        var link = "/shelter?lat=" + geoipResponse.location.latitude;
-        link += "&lon=" +geoipResponse.location.longitude;
- 
-        /* It's possible that we won't have any names for this city */
-        var cityName = geoipResponse.city.names.en || 'your city';
- 
-        /*
-           most_specific_subdivision returns the smallest available
-           subdivision (region) as defined in ISO 3166-2.
-        */
-        var regionName = geoipResponse.most_specific_subdivision.names.en;
- 
-        var cityHTML =
-            '<a href="' + link + '">Find a great companion near '
-            + cityName;
- 
-       /* if (cityName && regionName ) {
-            cityHTML += ', ' + regionName;
-        }*/
-        cityHTML += '</a>.';
- 
-        $("#city").html(cityHTML);
-    };
- 
-    var onSuccess = function (geoipResponse) {
-        updateCityText(geoipResponse);
-    };
- 
-    /* If we get an error we will */
-    var onError = function (error) {
-        return;
-    };
- 
-    return function () {
-        geoip2.city( onSuccess, onError );
-    };
-}());
- 
-fillInPage();
-</script>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
