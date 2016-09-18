@@ -1,17 +1,24 @@
 /*
 This is Something for me.
 */
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
 body{
 	margin: 0;
     height:100%;
     width:100%;
-    background: #111111;
+    background: rgb(11, 11, 11);
     animation: fading 8s infinite;
    -webkit-animation: fading 8s infinite;
-   opacity: 0.5;
+   opacity: 0.3;
+   color: #fff;
+   display: flex;
 }
 
-@keyframes fading {
+
+/* @keyframes fading {
     0%   { background: #111111; }
     33%  { background: #eceeef; }
     66%  { background: #f8fafb; }
@@ -23,7 +30,8 @@ body{
     33%  { background: #eceeef; }
     66%  { background: #f8fafb; }
     100% { background: #111111; }
-}
+} */
+
 
 .content{
 	margin-top: 5%;
@@ -37,4 +45,15 @@ h1{
 	margin: auto;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+
+.col img{
+    width: 33%;
+    padding: 0;
+    margin: 0;
 }

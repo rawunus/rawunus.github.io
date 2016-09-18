@@ -5,23 +5,33 @@
 	<title>Bal Krishna Sunuwar</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+<script src="insta.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
-	<div class="content">
+<div class="page">
+	<div class="content col">
 	<img src="images/me.jpg">
 		<p><b>Never take life seriously. Nobody gets out alive anyway.</b></p>
-		<address>Twitter: <a href="https://twitter.com/Rawunus" target="_blank">@sunuwar</a></address>
-		<address>Facebook: <a href="https://www.facebook.com/sunuawr" target="_blank">sunuawr@facebook.com</a></address><address>Email: <a href="mailto:balkrishna@sunuwar.me" target="_blank">balkrishna@sunuwar.me</a></address>
-		<address>Instagram: <a href="https://www.instagram.com/rawunusq/" target="_blank">@sunuwarq</a></address>
-
+		<address>Twitter: <a href="https://twitter.com/Rawunus" target="_blank">@rawunus</a></address></address>
+		<address>Email: <a href="mailto:balkrishna@sunuwar.me" target="_blank">balkrishna@sunuwar.me</a></address>
 	</div>
+	<div class="insta col">
+		<div id="instafeed"></div>
+	</div>
+</div>
 </body>
 </html>
-
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '1524096269',
+        accessToken: '1524096269.1677ed0.4a9186072f00470eb405bb4eb6ab9a8c',
+        template: '<a href="{{link}}"><img class="img-responsive" src="{{image}}" /></a>'
+    });
+    userFeed.run();
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
