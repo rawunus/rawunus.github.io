@@ -57,3 +57,12 @@ h1{
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .content{
+        padding-bottom: 3%;
+    }
+    .col{
+        width: 100%;
+    }
+}
