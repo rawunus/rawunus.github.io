@@ -58,6 +58,7 @@ h1{
     margin: 0;
 }
 
+/* Media Queries */
 @media screen and (max-width: 768px) {
     .content{
         padding-bottom: 3%;
