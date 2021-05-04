@@ -6,19 +6,19 @@ html, body {
   overflow: hidden;
 }
 body{
-	margin: 0;
+    margin: 0;
     height:100%;
     width:100%;
     background: rgb(11, 11, 11);
     animation: fading 8s infinite;
-   -webkit-animation: fading 8s infinite;
-   opacity: 0.6;
-   color: #fff;
+    -webkit-animation: fading 8s infinite;
+    opacity: 0.6;
+    color: #fff;
 }
 
 .content{
-	margin-top: 5%;
-	text-align: center;
+    margin-top: 5%;
+    text-align: center;
     width: 100%;
     height: 100vh;
     display: table;
@@ -26,14 +26,12 @@ body{
     top: 28%;
 }
 
-
 h1{
-	margin: auto;
-	text-align: center;
-	vertical-align: middle;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
     font-size: 2rem;
 }
-
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
