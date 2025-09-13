@@ -1,1 +1,1 @@
-_dmarc:v=DMARC1; p=none;
+_dmarc.balkrishnasunuwar.com.np
